@@ -1,0 +1,47 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1b437d4ef8.js" crossorigin="anonymous"></script>
+    <title>My Favorite Sport</title>
+</head>
+
+<body>
+    <div class="contentarea">
+        <h1>header</h1>
+        <div class="camera">
+            <video id="video">Video stream not available.</video>
+        </div>
+
+        <div>
+            <button id="startbutton"><i class="fas fa-camera fa-5x"></i></button>
+        </div>
+
+        <div class="canvases">
+            <canvas id="canvas"></canvas>
+            <canvas id="canvas1"></canvas>
+        </div>
+        
+        <div class="outputs">
+            <div class="output">
+                <img id="photo" alt="The screen capture will appear in this box.">
+            </div>
+            <div class="output">
+                <img id="photo1" alt="The screen capture will appear in this box.">
+            </div>
+        </div>
+        
+    </div>
+    
+        <div class="btns">
+            <button id="compareBtn">СРАВНИ</button>
+            <button id="resetBtn"><i class="fas fa-redo-alt fa-5x fa-rotate-180 fa-flip-horizontal"></i></button>
+        </div>
+        
+    
+
+    <script src="index.js"></script>
+    <script src="rekognition.js"></script>
+</body>
+
+</html>
